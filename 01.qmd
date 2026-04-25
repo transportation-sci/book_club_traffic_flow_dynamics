@@ -9,7 +9,7 @@ format: revealjs
 - Welcome to the Traffic Flow Dynamics (2nd edition) book club! 
 - book: [Book website](https://traffic-flow-dynamics.org/)
 - These slides are available at [github.com/transportation-sci/book_club_traffic_flow_dynamics](https://github.com/transportation-sci/book_club_traffic_flow_dynamics).
-- We follow the [Transportation Science Learning Community Code of Conduct](https://github.com/transportation-sci/code_of_conduct).
+- We follow the [Transportation Science Learning Community Code of Conduct](https://transportation-sci.github.io/code_of_conduct/code_of_conduct.html).
 
 
 ## Book club meetings
