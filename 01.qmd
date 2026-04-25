@@ -1,0 +1,41 @@
+---
+engine: knitr
+title: Introduction
+format: revealjs
+---
+
+# Welcome
+
+- Welcome to the Traffic Flow Dynamics (2nd edition) book club! 
+- book: [Book website](https://traffic-flow-dynamics.org/)
+- These slides are available at [github.com/transportation-sci/book_club_traffic_flow_dynamics](https://github.com/transportation-sci/book_club_traffic_flow_dynamics).
+- We follow the [Transportation Science Learning Community Code of Conduct](https://github.com/transportation-sci/code_of_conduct).
+
+
+## Book club meetings
+
+-   Volunteer leads discussion of a chapter
+    -   **This is the best way to learn the material.**
+-   Presentations: 
+    -   No fixed format  
+    -   Review of material
+    -   Questions you have
+    -   Live demo
+
+## Pace
+
+-   **Goal:** 1 or part of 1 chapter/week
+-   Ok to split overwhelming chapters
+-   Ok to combine short chapters
+-   Meet ***every*** week except holidays, etc
+    -   We will meet even if scheduled presenter unavailable
+-   Pumble is good place for offline discussion/troubleshooting  
+
+## Group introductions
+
+- If you feel comfortable sharing:
+  - Who are you?
+  - Where you calling in from? (If you're not comfortable sharing, skip)
+  - Have you used SUMO, PTV Vissim, and other related software?
+  - Have you studied Traffic Flow Theory before?
+  - What are you most looking forward to during the club?
