@@ -8,3 +8,5 @@ This repo contains the relevant files and code for the Traffic Flow Dynamics boo
 ## Data
 
 NGSIM Data can be obtained here: https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj/about_data
+
+Create a folder named `data` in the project root and put all files there.

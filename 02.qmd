@@ -1,0 +1,47 @@
+---
+title: "Movsim Sim"
+format: html
+---
+
+- Movsim == Multi-model open-source vehicular-traffic Simulator
+- Github: https://github.com/movsim/movsim
+
+## Setup
+
+### Steps:
+
+* [Install Git](https://git-scm.com/install/windows)
+* [Install Java](https://www.oracle.com/ca-en/java/technologies/downloads/#jdk26-windows)
+* [Install Apache Maven](https://maven.apache.org/download.cgi#maven-daemon-1-0-6) and add the `bin` directory of the created directory `apache-maven-<version-num>` to the `PATH` environment variable. Then confirm with `mvn -v` in a new terminal
+* [Install gnuplot](https://sourceforge.net/projects/gnuplot/files/gnuplot/) and add to the `PATH`.
+* Clone the Movsim repository: `git clone https://github.com/movsim/movsim.git`
+* Type `mvn install` in the main `movsim` directory
+
+## Running Simulations
+
+### Simulation of Highway with Onramp Scenario
+
+Open a terminal in the main movsim directory and run:
+
+```java
+java -jar viewer/target/MovsimViewer-1.7.0-SNAPSHOT-jar-with-dependencies.jar -f sim/bookScenarioSimpleOnramp/onramp_IDM.xprj
+```
+Close the terminal when the simulation is complete.
+
+### Plots
+
+Create a `plots` folder in `sim/bookScenarioSimpleOnramp/`. Now in the same folder, run the following to create plots:
+
+```
+gnuplot -e "inputPath='../../'; outputPath='plots/'" onramp_IDM.gpl
+```
+
+This creates EPS files. You can view these files in an EPS viewer. Another option is to convert them to PNG. To do that, [install Ghostscript](https://ghostscript.com/releases/) and [install ImageMagick](https://imagemagick.org/download/#gsc.tab=0). Then run the following in PowerShell in the `plots` folder:
+
+```
+Get-ChildItem *.eps | ForEach-Object {
+    magick $_.FullName ($_.BaseName + ".png")
+}
+```
+
+PNG files are then created in the same folder.
