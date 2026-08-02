@@ -1,5 +1,5 @@
 [project]
-name = "project_traffic_flow_dynamics"
+name = "book_club_traffic_flow_dynamics"
 version = "0.1.0"
 requires-python = ">= 3.13.3"
 dependencies = [
@@ -7,4 +7,5 @@ dependencies = [
     "numpy>=2.4.4",
     "pandas>=3.0.2",
     "plotnine>=0.15.3",
+    "shiny>=1.7.0",
 ]
